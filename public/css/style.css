@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ebbe-Regular";
+    background-color: #F8F4F0;
+}
+/* Шрифт для логотипа */
+@font-face {
+    font-family: 'LavirePersonalUse';
+    src: url('../fonts/LavirePersonalUse.otf');
+}
+
+/* Шрифт для обычного текста */
+@font-face {
+    font-family: 'Ebbe-Regular';
+    src: url('../fonts/Ebbe-Regular.ttf');
+}
+
+/* Шрифт для заголовков */
+@font-face {
+    font-family: 'LavishlyYours-Regular';
+    src: url('../fonts/LavishlyYours-Regular.ttf');
+}
+
+/* ===== ХЕДЕР ===== */
+.header {
+    background-color: #5C6B9E;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    Font-family: 'Ebbe-Regular';
+    z-index: 100;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: 'LavishlyYours-Regular';
+    letter-spacing: 3px;
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+}
+
+
+.nav-menu > li {
+    position: relative;
+}
+
+.nav-menu > li > a {
+    text-decoration: none;
+    color: #1a1a2e;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0;
+}
+
+.btn-login {
+    text-decoration: none;
+    color: #1a1a2e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ===== ВЫПАДАЮЩЕЕ МЕНЮ ===== */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f5;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 220px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 101;
+}
+
+.dropdown-title {
+    background-color: #7B8FBF;
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #1a1a2e;
+    font-size: 16px;
+}
+
+.dropdown li a:hover {
+    background-color: #B8C4E0;
+}
+
+.nav-menu > li:hover .dropdown {
+    display: block;
+}
+
+/* ===== HERO СЕКЦИЯ ===== */
+.hero {
+    background-image: url('../images/glavnaya.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;  /* чтобы текст был поверх затемнения */
+    color: #F8F4F0;
+}
+
+.hero-logo {
+    font-family: 'LavishlyYours-Regular';
+    font-size: 72px;
+    margin: 0;
+}
+
+.hero-subtitle {
+    Font-family: 'Ebbe-Regular';
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+/* ===== БЛОК С ТЕКСТОМ (заходит на изображение) ===== */
+.welcome-block {
+    background-color: #7B8FBF;
+    color: #F8F4F0;
+    text-align: center;
+    padding: 30px 20px;
+    margin: -60px auto 0;
+    max-width: 800px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 2;  /* чтобы блок был поверх hero */
+    Font-family: 'Ebbe-Regular';
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.welcome-block p {
+    margin: 0;
+}
