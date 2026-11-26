@@ -45,15 +45,15 @@
     <!-- Галерея трёх чинов -->
     <div class="gallery-row">
         <div class="gallery-item">
-            <img src="/images/hierarchies/nachala.png" alt="Начала">
+            <img src="/images/nachala.png" alt="Начала">
             <span>Начала</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/arhangely.png" alt="Архангелы">
+            <img src="/images/arhangel.png" alt="Архангелы">
             <span>Архангелы</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/angely.png" alt="Ангелы">
+            <img src="/images/angelaa.png" alt="Ангелы">
             <span>Ангелы</span>
         </div>
     </div>
@@ -70,7 +70,7 @@
             <p>Особенность служения Начал заключается в масштабности их попечения. Согласно христианскому преданию, у каждого народа есть свой Ангел-Покровитель, подчиняющийся воле Бога.</p>
         </div>
         <div class="content-image">
-            <img src="/images/hierarchies/nachala-detail.png" alt="Начала">
+            <img src="/images/nachaloosn.png" alt="Начала">
         </div>
     </div>
 
@@ -98,7 +98,7 @@
             <p>Иконографически Архангелов изображают как прекрасных юношей в воинских доспехах либо в царских одеждах, с мечами, жезлами или держащими в руках различные символы. Часть в руках Архангела Михаила изображает меч или копьё, которым он поражает дракона.</p>
         </div>
         <div class="content-image">
-            <img src="/images/hierarchies/arhangely-detail.png" alt="Архангелы">
+            <img src="/images/arhangelosn.png" alt="Архангелы">
         </div>
     </div>
 
@@ -111,7 +111,7 @@
 
     <div class="content-block">
         <div class="content-image">
-            <img src="/images/hierarchies/angely-detail.png" alt="Ангелы">
+            <img src="/images/angelosn.png" alt="Ангелы">
         </div>
         <div class="content-text">
             <p>Ангелы (в узком смысле этого слова) составляют самый многочисленный и наиболее близкий к человеку чин небесной иерархии. Их имя означает «вестники», что точно отражает главную функцию — быть посредниками между Богом и людьми. В отличие от высших чинов, погружённых в созерцание Божественной славы, Ангелы активно включены в повседневную жизнь человечества, осуществляя Божий план в повседневной жизни мира.</p>
@@ -146,15 +146,15 @@
     <!-- Галерея трёх чинов -->
     <div class="gallery-row">
         <div class="gallery-item">
-            <img src="/images/hierarchies/gospodstva.png" alt="Господства">
+            <img src="/images/gospodstv.png" alt="Господства">
             <span>Господства</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/sily.png" alt="Силы">
+            <img src="/images/sila.png" alt="Силы">
             <span>Силы</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/vlasti.png" alt="Власти">
+            <img src="/images/vlasty.png" alt="Власти">
             <span>Власти</span>
         </div>
     </div>
@@ -173,7 +173,7 @@
             <p>Особенность Господств является их роль в поддержании космической иерархии. Они следят за тем, чтобы законы мироздания — как физические, так и духовные — соблюдались во всей вселенной. Через их служение земные цари получают силу, при этом Господства следят, чтобы власть не превратилась в тиранию, а подданные — в рабов. Господства являют пример того, как авторитет может сочетаться с искренним служением.</p>
         </div>
         <div class="content-image">
-            <img src="/images/hierarchies/gospodstva-detail.png" alt="Господства">
+            <img src="/images/gospodstvaosn.png" alt="Господства">
         </div>
     </div>
 
@@ -188,7 +188,7 @@
 
     <div class="content-block">
         <div class="content-image">
-            <img src="/images/hierarchies/sily-detail.png" alt="Силы">
+            <img src="/images/silosn.png" alt="Силы">
         </div>
         <div class="content-text">
             <p>Силы — один из чинов средней ангельской иерархии, чьё служение связано с проявлением божьего всемогущества и творческой силы в материальном мире. Через них Бог совершает чудеса, исцеляет больных, дарует духовные дары и укрепляет верующих в борьбе со злом. Силы являются проводниками божественной энергии, преображающей как человеческие души, так и всю вселенную.</p>
@@ -223,7 +223,7 @@
             <p>Ангелы выполняют бесчисленное множество поручений, служа проводниками Божьих Промысла. Они приносят Богу молитвы верующих, вдохновляют на благие помыслы, защищают от опасностей — как физических, так и духовных. В житиях святых описаны случаи, когда ангелы принимали человеческий облик, чтобы накормить голодного, вывести путника из непроходимой местности или избавить узника. При этом они всегда действуют тактично, уважая человеческую свободу воли.</p>
         </div>
         <div class="content-image">
-            <img src="/images/hierarchies/vlasti-detail.png" alt="Власти">
+            <img src="/images/vlastyosn.png" alt="Власти">
         </div>
     </div>
 
@@ -245,15 +245,15 @@
     <!-- Галерея трёх чинов -->
     <div class="gallery-row">
         <div class="gallery-item">
-            <img src="/images/hierarchies/serafimy.png" alt="Серафимы">
+            <img src="/images/serafims.png" alt="Серафимы">
             <span>Серафимы</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/heruvimy.png" alt="Херувимы">
+            <img src="/images/heryvims.png" alt="Херувимы">
             <span>Херувимы</span>
         </div>
         <div class="gallery-item">
-            <img src="/images/hierarchies/prestoly.png" alt="Престолы">
+            <img src="/images/prestol.png" alt="Престолы">
             <span>Престолы</span>
         </div>
     </div>
@@ -263,7 +263,7 @@
 
     <div class="content-block">
         <div class="content-image">
-            <img src="/images/hierarchies/serafimy-detail.png" alt="Серафимы">
+            <img src="/images/serafimosn.png" alt="Серафимы">
         </div>
         <div class="content-text">
             <p>Серафимы занимают высшее положение в ангельской иерархии, находясь в непосредственной близости к Божественному Престолу. Их название происходит от древнееврейского слова, означающего «пылающий» или «горящий», что отражает их основную характеристику — пламенную любовь к Богу и способность очищать всё окружающее божественным огнём. Серафимы представляют собой совершенный образ устремлённости тварного существа к своему Творцу.</p>
@@ -302,7 +302,7 @@
             <p>Через служение херувимов Бог являет Себя как источник вечной премудрости и знания. Их постоянное присутствие у Престола Славы напоминает, что истинное познание всегда начинается с благоговения перед Богом и ведёт к преображению всего существа человека. Они свидетельствуют, что высшая мудрость — не просто накопление информации, но живое соединение с Сами Источником Истины.</p>
         </div>
         <div class="content-image">
-            <img src="/images/hierarchies/heruvimy-detail.png" alt="Херувимы">
+            <img src="/images/heryvimosn.png" alt="Херувимы">
         </div>
     </div>
 
@@ -315,7 +315,7 @@
 
     <div class="content-block">
         <div class="content-image">
-            <img src="/images/hierarchies/prestoly-detail.png" alt="Престолы">
+            <img src="/images/prestolosn.png" alt="Престолы">
         </div>
         <div class="content-text">
             <p>В видениях пророков Престолы предстают как огненные колёса, покрытые множеством очей. Этот образ, описанный у Иезекииля, глубоко символичен: колёса означают неустанное движение Божьего замысла в мире, а очи — всевидящую проницательность Божественного правосудия, которое проникает в самую суть вещей. Престолы обладают способностью нести в себе обители Божьей природы — тронами, являющимися в будущем — в свете вечной Божьей природы.</p>
