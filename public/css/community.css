@@ -1,0 +1,118 @@
+/* ===== ХЕДЕР СООБЩЕСТВА ===== */
+.community-header {
+    background-color: #5C6B9E;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 14px 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.ch-left { display: flex; align-items: center; gap: 18px; }
+
+.ch-logo {
+    font-family: 'LavishlyFont', serif;
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+/* Бургер */
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 34px;
+    height: 34px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #1a1a2e;
+    border-radius: 2px;
+}
+
+/* Поиск */
+.ch-search {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.7);
+    font-family: inherit;
+    font-size: 15px;
+    color: #1a1a2e;
+}
+
+.ch-search:focus { outline: 2px solid white; }
+
+.ch-right { margin-left: auto; }
+
+/* ===== БОКОВОЕ МЕНЮ ===== */
+.side-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+    z-index: 200;
+}
+
+.side-overlay.show { opacity: 1; pointer-events: auto; }
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 320px;
+    background-color: #f0f0f5;
+    padding: 30px 24px;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    z-index: 201;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 2px 0 12px rgba(0,0,0,0.2);
+}
+
+.side-menu.open { transform: translateX(0); }
+
+.side-link {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #1a1a2e;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+
+.side-link:hover { background-color: #DDE0EC; }
+
+.side-divider {
+    border: none;
+    height: 2px;
+    background-color: #2a2a4a;
+    margin: 14px 0;
+}
+
+.side-copy {
+    margin-top: auto;
+    font-size: 14px;
+    color: #5C6B9E;
+}

@@ -1,8 +1,8 @@
 @extends('layouts.auth')
 
-@section('title', 'Вход — Coelesti')
-
-@section('quote', 'Какие-нибудь умные крутые слова<br>лого хз что-нибудь такое')
+@section('page-class', 'login')
+@section('title', 'Вход — Coelesli')
+@section('quote', 'Свет помнит тех, кто однажды его выбрал. С возвращением, странник.')
 
 @section('content')
 

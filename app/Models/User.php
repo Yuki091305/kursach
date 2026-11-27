@@ -33,4 +33,29 @@ class User extends Authenticatable
             'is_subscribed' => 'boolean',
         ];
     }
+
+    // ===== СВЯЗИ =====
+
+    // Посты пользователя
+    public function posts()
+    {
+        return $this->hasMany(Post::class);
+    }
+
+    // Подписчики (кто подписан на меня)
+    public function followers()
+    {
+        return $this->belongsToMany(User::class, 'followers', 'user_id', 'follower_id');
+    }
+
+    // Подписки (на кого подписан я)
+    public function following()
+    {
+        return $this->belongsToMany(User::class, 'followers', 'follower_id', 'user_id');
+    }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
 }

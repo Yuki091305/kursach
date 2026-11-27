@@ -1,8 +1,9 @@
 @extends('layouts.auth')
 
-@section('title', 'Регистрация — Coelesti')
+@section('page-class', 'register')
+@section('title', 'Регистрация — Coelesli')
+@section('quote', 'Каждый ангел когда-то был странником. Сделай первый шаг к своему небу.')
 
-@section('quote', 'Какие-нибудь умные крутые слова<br>лого хз что-нибудь такое')
 
 @section('content')
 
