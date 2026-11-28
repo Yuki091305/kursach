@@ -1697,3 +1697,5 @@ a {
     font-size: 16px;
     padding: 30px;
 }
+.like-btn.liked svg { color: #e05c7a; }
+.like-btn.liked { background-color: #f3d3d3; }

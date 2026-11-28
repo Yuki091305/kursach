@@ -47,6 +47,7 @@ class PostController extends Controller
             ->paginate(10);
 
         return view('community', compact('posts'));
+
     }
 
     // Удалить пост (только автор)
@@ -64,4 +65,5 @@ class PostController extends Controller
 
         return redirect('/profile')->with('success', 'Пост удалён');
     }
+
 }

@@ -41,9 +41,10 @@
 
                     <!-- Иконки действий -->
                     <div class="post-actions">
-                        <button class="action-btn like-btn" title="Лайк">
+                        <button class="action-btn like-btn {{ $post->likes->contains(auth()->id()) ? 'liked' : '' }}"
+                                data-post="{{ $post->id }}">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                            <span>{{ $post->likes_count }}</span>
+                            <span class="like-count">{{ $post->likes_count }}</span>
                         </button>
                         <button class="action-btn comment-btn" onclick="toggleCommentForm({{ $post->id }})" title="Комментарий">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
@@ -118,5 +119,22 @@
             const form = document.getElementById('replyForm-' + commentId);
             form.style.display = form.style.display === 'none' ? 'block' : 'none';
         }
+        document.querySelectorAll('.like-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const postId = this.dataset.post;
+                fetch(`/post/${postId}/like`, {
+                    method: 'POST',
+                    headers: {
+                        'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content,
+                        'Content-Type': 'application/json'
+                    }
+                })
+                    .then(r => r.json())
+                    .then(data => {
+                        this.querySelector('.like-count').textContent = data.count;
+                        this.classList.toggle('liked', data.liked);
+                    });
+            });
+        });
     </script>
 @endsection

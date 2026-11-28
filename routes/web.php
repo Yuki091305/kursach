@@ -52,3 +52,7 @@ use App\Http\Controllers\CommentController;
 
 Route::post('/comment', [CommentController::class, 'store'])->middleware('auth')->name('comment.store');
 Route::delete('/comment/{comment}', [CommentController::class, 'destroy'])->middleware('auth')->name('comment.destroy');
+
+use App\Http\Controllers\LikeController;
+
+Route::post('/post/{post}/like', [LikeController::class, 'toggle'])->middleware('auth')->name('like.toggle');

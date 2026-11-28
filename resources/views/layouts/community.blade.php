@@ -5,6 +5,7 @@
     <title>@yield('title', 'Coelesti — Сообщество')</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/community.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
 
